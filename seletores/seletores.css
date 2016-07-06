@@ -51,3 +51,12 @@ h1 ~ h2{
 h1+h2{
   color: brown;
 }
+
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+
+:not(a){
+  color:red;
+}
