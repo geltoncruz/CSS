@@ -18,10 +18,36 @@ a[href^="#home"]{
 /*
   E:nth-child(n) - Elemento E que é o enésimo filho do seu elemento pai
 */
-li:nth-child(2){
+li:nth-child(2),li:nth-last-child(3){
   text-decoration: underline;
 }
 p:empty{
   background: red;
   height: 3px;
+}
+p:nth-of-type(2n+2){
+  color: blue;
+}
+p:nth-last-of-type(2n+1){
+  background: #ccc;
+}
+li:last-child{
+  color: green;
+}
+li:first-child{
+  color: blue;
+}
+li:nth-last-child(2){
+  color: #ffcc00;
+}
+p:first-of-type{
+  text-transform: uppercase;
+}
+
+h1 ~ h2{
+  color: pink;
+}
+
+h1+h2{
+  color: brown;
 }
