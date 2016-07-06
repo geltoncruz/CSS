@@ -1,0 +1,27 @@
+/*
+Seletores css3
+Seletores por strings
+
+E[FOO*="bar"]  - Cujo valor do atributo foo contém a string "bar"
+E[FOO$="bar"]  - Cujo valor do atributo foo termine com a string "bar"
+E[FOO^="bar"]  - Cujo valor do atributo foo inicie a string "bar"
+*/
+a[href="#home"]{
+  color:red;
+}
+a[href$="#home"]{
+  color:green;
+}
+a[href^="#home"]{
+  color:blue;
+}
+/*
+  E:nth-child(n) - Elemento E que é o enésimo filho do seu elemento pai
+*/
+li:nth-child(2){
+  text-decoration: underline;
+}
+p:empty{
+  background: red;
+  height: 3px;
+}
