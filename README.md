@@ -3,7 +3,7 @@
 > 
 
 ## Assuntos abordados ##
-. Anamnese
-. Seletores
-. Filter
-... Continua
+* Anamnese
+* Seletores
+* Filter
+* ... Continua
