@@ -1,0 +1,49 @@
+
+body{
+  background: #ccc;
+}
+
+div{
+  width: 300px;
+  height: 100px;
+  box-shadow: 2px 2px;
+  background: #fff;
+}
+div{
+  box-shadow: 2px 2px blue;
+}
+div{
+  box-shadow: 2px 2px 5px #999;
+}
+div:hover{
+  box-shadow: inset 0 5px 5px #000;
+  cursor: pointer;
+}
+div:before{
+  box-shadow: 10px 2px 5px pink;
+}
+div:after{
+  content: '...Veja Mais';
+  -webkit-content: '...Veja Mais';
+  -moz-content: '...Veja Mais';
+
+  padding: 20px;
+}
+#box-shadow{
+  position: relative;
+  box-shadow: 1px 2px 4px #000;
+  -moz-box-shadow:1px 2px 4px #000;
+  -webkit-box-shadow:1px 2px 4px #000;
+}
+#box-shadow::after {
+    content: '';
+    position: absolute;
+    box-shadow: 1px 2px 4px #000;
+    transform: rotate(10deg);
+    -moz-box-shadow: 1px 2px 4px #000;
+    -webkit-box-shadow: 1px 3px 4px #000;
+    width: 100%;
+    left: 43%;
+    bottom: -298px;
+    z-index: -1;
+}
