@@ -1,0 +1,5 @@
+img{
+  filter: sepia(100%)  blur(5px);
+  -webkit-filter: sepia(100%)  blur(5px);
+
+}
