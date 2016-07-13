@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+.container {
+  display: block;
+  width: 20%;
+  background: #ff5f00;
+}
+a {
+  display: block;
+  padding: .5em 1em;
+  background: #00436e;
+  font: 300 1em/1em Verdana, Geneva, sans-serif;
+  color: #eee;
+  text-decoration: none;
+}
+a:hover, .active a {
+  border-bottom-right-radius: 2em;
+
+}
+a, a:hover {
+  -webkit-transition-property: border-radius;
+  -webkit-transition-duration: .2s;
+  -webkit-transition-timing-function: ease-in;
+}

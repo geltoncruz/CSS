@@ -1,0 +1,44 @@
+p{
+  font-family: arial;
+}
+
+span{
+  font-family: arial;
+  font-weight: 700;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper img{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid red;
+  opacity: .5;
+  box-shadow: 2px 2px 10px #fff;
+  transition: all .5s ease;
+}
+
+.wrapper img:hover{
+  opacity: 1;
+  border-bottom: 200px solid red;
+  box-shadow: 2px 2px 10px #414141;
+}
+
+.overlay{
+  position: absolute;
+  top: 220px;
+  padding: 25px;
+  color: white;
+}

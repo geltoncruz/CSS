@@ -1,0 +1,116 @@
+#wrapper {
+	background-color: #FFF;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+}
+#relative {
+	background-color: #FFC;
+	text-align: center;
+	display: block;
+	float: left;
+	height: 255px;
+	width: 300px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(http://lorempixel.com/400/300/technics/);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 10px;
+}
+#absolute {
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	display: block;
+	float: left;
+	height: 255px;
+	width: 300px;
+	position: absolute;
+	top: 200px;
+	-webkit-transition: all 0.3s linear 0.1s;
+	-moz-transition: all 0.3s linear 0.1s;
+	-ms-transition: all 0.3s linear 0.1s;
+	-o-transition: all 0.3s linear 0.1s;
+	transition: all 0.3s linear 0.1s;
+	color: #FFF;
+}
+#absolute:hover {
+	top: 0px;
+	bottom: 0px;
+}
+.um {
+	background-color: rgba(255,255,255,0.0);
+	text-align: center;
+	display: block;
+	width: 300px;
+	line-height: 40px;
+	-webkit-transition: all .3s ease .1s;
+	-moz-transition: all .3s ease .1s;
+	-ms-transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	transition: all .3s ease .1s;
+	position: relative;
+	letter-spacing: .2em;
+	top: -10px;
+}
+.dois {
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 300px;
+	-webkit-transition: all .3s ease .1s;
+	-moz-transition: all .3s ease .1s;
+	-ms-transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	transition: all .3s ease .1s;
+	position: relative;
+	letter-spacing: .2em;
+	line-height: 40px;
+}
+.tres {
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	display: block;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+	-webkit-transition: all .3s ease .1s;
+	-moz-transition: all .3s ease .1s;
+	-ms-transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	transition: all .3s ease .1s;
+	position: relative;
+	letter-spacing: .2em;
+}
+#absolute:hover .um {
+	-webkit-transition: all .3s ease .3s;
+	-moz-transition: all .3s ease .3s;
+	-ms-transition: all .3s ease .3s;
+	-o-transition: all .3s ease .3s;
+	transition: all .3s ease .3s;
+	position: relative;
+	top: 99px;
+	background-color: rgba(255,255,255,0.2);
+	line-height: 40px;
+}
+#absolute:hover .dois {
+	position: relative;
+	top: 87px;
+	-webkit-transition: all 0.6s ease 0.3s;
+	-moz-transition: all 0.6s ease 0.3s;
+	-ms-transition: all 0.6s ease 0.3s;
+	-o-transition: all 0.6s ease 0.3s;
+	transition: all 0.6s ease 0.3s;
+}
+#absolute:hover .tres {
+	position: relative;
+	top: 77px;
+	-webkit-transition: all .8s ease .5s;
+	-moz-transition: all .8s ease .5s;
+	-ms-transition: all .8s ease .5s;
+	-o-transition: all .8s ease .5s;
+	transition: all .8s ease .5s;
+}
