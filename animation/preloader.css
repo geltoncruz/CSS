@@ -1,0 +1,76 @@
+body{
+    background: #404456;
+  }
+  #loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.7em;
+    margin-left:-2.7em;
+    width: 5.4em;
+    height: 5.4em;
+    background: #404456;
+  }
+  #bar{
+    position: absolute;
+    width: 7.1em;
+    height: 7.1em;
+    top: 1.7em;
+    left: 1.7em;
+    background: transparant;
+    border-left: .2em solid white;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+  #box{
+    width: 1em;
+    height: 1em;
+    border: .25em solid white;
+    border-radius: 15%;
+    transform: translate(0,-1em) rotate(-45deg);
+    -webkit-transform: translate(0,-1em) rotate(-45deg);
+    -moz-transform: translate(0,-1em) rotate(-45deg);
+    -o-transform: translate(0,-1em) rotate(-45deg);
+    position: relative;
+    left: 0;
+    bottom: -4em;
+    animation: empurrar 4s infinite;
+  }
+  @keyframes empurrar{
+      0%{
+        transform: translate(0,-1em) rotate(-45deg);
+      }
+      25%{
+        transform:translate(0,-1.5em) rotate(-3deg)
+      }
+      50%{
+        transform: transform:translate(1,-2em) rotate(45deg)
+      }
+      75%{
+        transform: transform:translate(0,-1.1em) rotate(45deg)
+      }
+      100%{
+         transform: transform:translate(0,-1.1em) rotate(45deg)
+      }
+
+  }
+  @-webkit-keyframes empurrar{
+      0%{
+        transform: translate(0,-1em) rotate(-45deg);
+      }
+      25%{
+        transform:translate(0,-1.5em) rotate(-3deg)
+      }
+      50%{
+        transform: transform:translate(1,-2em) rotate(45deg)
+      }
+      75%{
+        transform: transform:translate(0,-1.1em) rotate(45deg)
+      }
+      100%{
+         transform: transform:translate(0,-1.1em) rotate(45deg)
+      }
+
+  }
