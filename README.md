@@ -6,4 +6,7 @@
 * Anamnese
 * Seletores
 * Filter
+* ShadowBox
+* Tansitions
+* Animations
 * ... Continua
