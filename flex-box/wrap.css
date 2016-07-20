@@ -1,0 +1,26 @@
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 400px;
+  background:yellow;
+  /*align-items: center;*/
+  justify-content: space-around;
+  align-items: stretch;
+}
+.item{
+  width: 100px;
+  /*height: 100px;*/
+  background: #0288D1;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex: 1;
+}
+.item:hover{
+  /*flex: 16;*/
+  transition: .8s ease;
+  cursor: pointer;
+  align-self: center;
+}

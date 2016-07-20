@@ -67,7 +67,9 @@ flex-direction:         row-reverse;
 
 ![row](../slides/imagens/flexbox/004-view.jpg)
 
-*Usando column
+* Usando direction column:
+* Empilhamento do topo para baixo
+
 
 <pre>
   <code>
@@ -78,4 +80,30 @@ flex-direction:         column;
   </code>
 </pre>
 
-![row](../slides/imagens/flexbox/004-view.jpg)
+![row](../slides/imagens/flexbox/005-view.jpg)
+
+
+* column-reverse  
+* Empilhamento inverso da base para o topo
+<pre>
+  <code>
+  .flex-container {
+-webkit-flex-direction: column-reverse; /* Safari */
+flex-direction:         column-reverse;
+}
+  </code>
+</pre>
+![row](../slides/imagens/flexbox/006-view.jpg)
+
+## Wrap - Quebra de Linha  
+A propriedade wrap define se o item irá ou não continuar em uma nova linha.
+
+<pre>
+  <code>
+  .flex-container {
+-webkit-flex-wrap: wrap; /* Safari */
+flex-wrap:         wrap;
+}
+  </code>
+</pre>
+![wrap](../slides/imagens/flexbox/007-view.jpg)
