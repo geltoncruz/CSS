@@ -13,7 +13,7 @@ do recipiente flexível com as margens de seu conteúdo.
 
 * flex container
 * flex items  
-[img 001]
+![FlexBox](../slides/imagens/flexbox/001.jpg)
 
 ## Suporte de navegadores
 
