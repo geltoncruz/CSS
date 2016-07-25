@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+
+      div,h1{
+        width: 50px;
+        height: 50px;
+        background: red;
+        animation:quadrado 5s;
+        position: absolute;
+        animation-iteration-count: infinite;
+      }
+      div{
+        /*animation-delay: 2s;*/
+        /*animation-name: quadrado*/
+        animation-direction: alternate-reverse;
+      }
+      div:hover{
+        animation-play-state: paused;
+      }
+      h1{
+/*        animation-duration: 5s; */
+
+        animation-direction: reverse;
+      }
+
+      @keyframes mover {
+      0% {background-color: red;
+          left: 0px;
+          animation-timing-function: linear;
+        }
+      50% {
+          background-color: yellow;
+          left: 20%;
+          animation-timing-function: ease-in;
+        }
+      75%{
+        left: 40%;
+        animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+        }
+      100%{
+        left: 0%;
+      }
+    }
+
+    @keyframes quadrado{
+      0%,100%{
+        left: 0%; top:0%;
+      }
+      25%{
+        left: 20%; top:0%;
+      }
+      50%{
+        left: 20%; top: 20%;
+      }
+      75%{
+        left: 0%; top: 20%;
+      }
+
+    }
+
+
+  </style>
+</head>
+<body>
+    <div></div>
+    <!-- <h1></h1> -->
+</body>
+</html>
