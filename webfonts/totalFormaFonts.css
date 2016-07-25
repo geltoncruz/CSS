@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'NomeDaFont';
+  src: local('nomedafont.eot'), url('nomedafont.eot');
+  src: local('nomedafont?#iefix') format('embedded-opentype'), url('nomedafont?#iefix') format('embedded-opentype'),
+    url('nomedafont.svg#Locaweb-Icons') format('svg'),
+    url('nomedafont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
