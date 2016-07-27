@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+p {
+  color: #DCEDC8;
+  font-family: Helvetica, Sans_serif; }
+
+h1 {
+  font-family: Helvetica, Sans_serif; }
+
+ul {
+  border: 20px solid #689F38;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px; }
+  ul li a {
+    list-style: none; }
+    ul li a span {
+      color: #212121;
+      font-family: Helvetica, Sans_serif; }
+    ul li a:hover {
+      background: yellow; }
+
+.mensagem, .sucesso, .erro, .aviso {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.sucesso {
+  border-color: green; }
+
+.erro {
+  border-color: red; }
+
+.aviso {
+  border-color: yellow; }
+
+/*
++ Soma
+- Subtração
+* multiplicação
+/ divisão
+% mod => resto da divisao
+*/
+.conteiner {
+  width: 100%; }
+  .conteiner article {
+    float: left;
+    width: 62.5%; }
+  .conteiner aside {
+    float: right;
+    width: 31.25%; }
+
+/*# sourceMappingURL=style.css.map */

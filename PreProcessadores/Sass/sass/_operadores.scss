@@ -1,0 +1,18 @@
+/*
++ Soma
+- Subtração
+* multiplicação
+/ divisão
+% mod => resto da divisao
+*/
+.conteiner{
+  width: 100%;
+  article{
+    float: left;
+    width: 600px / 960px * 100%;
+  }
+  aside{
+    float: right;
+    width: 300px / 960px * 100%;
+  }
+}

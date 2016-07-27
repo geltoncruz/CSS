@@ -1,0 +1,66 @@
+
+@import 'reset';
+
+$primary-color-dark:   #689F38;
+$primary-color:        #8BC34A;
+$primary-color-light:  #DCEDC8;
+$primary-color-text:   #212121;
+$accent-color:         #536DFE;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
+$font-stack: Helvetica, Sans_serif;
+
+$radius: 20px;
+
+@mixin border-arrendondada($radius){
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -o-border-radius:$radius;
+  border-radius: $radius;
+}
+
+p{
+  color: $primary-color-light;
+  font-family: $font-stack;
+}
+h1{
+  font-family: $font-stack;
+}
+
+ul{
+  border: $radius solid $primary-color-dark;
+  @include border-arrendondada($radius);
+  li{
+    a{
+      list-style: none;
+      span{
+        color:$primary-text-color;
+        font-family: $font-stack;
+      }
+      &:hover{
+        background: yellow;
+      }
+    }
+  }
+}
+
+.mensagem{
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+.sucesso{
+  @extend .mensagem;
+  border-color: green;
+}
+.erro{
+  @extend .mensagem;
+  border-color: red;
+}
+.aviso{
+  @extend .mensagem;
+  border-color: yellow;
+}
+
+@import 'operadores'
