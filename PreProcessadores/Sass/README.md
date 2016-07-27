@@ -1,5 +1,5 @@
 # Sass
-![Sass](../../slides/imagens/sass/00.svg)
+![Sass](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
  Sass é um pré-processador super podereso de css tem como objetivo tornar a escrita do css menos sofrível. Quer Saber como?
 
 ## Instalação
@@ -285,17 +285,15 @@ Resultado:
 <pre>
   <code>
   .container {
-width: 100%;
+  width: 100%;
 }
-
 article[role="main"] {
-float: left;
-width: 62.5%;
+  float: left;
+  width: 62.5%;
 }
-
 aside[role="complementary"] {
-float: right;
-width: 31.25%;
+  float: right;
+  width: 31.25%;
 }
   </code>
 </pre>
